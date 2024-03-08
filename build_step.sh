@@ -5,6 +5,7 @@ echo "Build script"
 # add the commands here
 
 echo "Installing npm packages"
-npm run install:build
+npm run install:all
+
 echo "Building client"
-npm run build:client
+npm run build:ui
