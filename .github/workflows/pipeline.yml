@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: npm install
+        run: npm install:all
       - name: build
         run: npm run build:ui
       - name: Trigger deployment
