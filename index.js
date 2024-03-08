@@ -43,6 +43,10 @@ app.get('/api/persons', (req, res) => {
   })
 })
 
+app.get('/health', (req, res) => {
+  res.send('ok')
+})
+
 app.post('/api/persons', (req, res, next) => {
   const body = req.body
 
